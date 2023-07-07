@@ -7,6 +7,6 @@ function main(){
     initScene()
     scene.moveCamera([0,2,3])
     scene.rotateCamera([0,0,0])
-    scene.render()
+    drawScene(true)
 }
 window.onload = main;
